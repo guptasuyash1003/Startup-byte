@@ -1,0 +1,485 @@
+body{
+  overflow-x: hidden;
+}
+
+.cb1{
+	text-align: left;
+	border-color: #f2f2f2;
+	margin-left: 20px;
+	height: 290px;
+	font-size: small; 
+	overflow-y: scroll;
+}
+
+.cb2{
+	text-align: left;
+	border-color: #f2f2f2;
+	margin-left: 20px;
+	font-size: small;
+}
+
+.cb3{
+	text-align: left;
+	border-color: #f2f2f2;
+	margin-left: 20px;
+	height: 260px;
+	font-size: small;
+	overflow-y: scroll;
+}
+
+.cb4{
+	text-align: left;
+	border-color: #f2f2f2;
+	margin-left: 20px;
+	height: 295px;
+	font-size: small;
+	overflow-y: scroll;
+}
+
+.cb5{
+	text-align: left;
+	border-color: #f2f2f2;
+	margin-left: 20px;
+	height: 290px;
+	font-size: small;
+	overflow-y: scroll;
+}
+
+.rbs{
+	text-align: left;
+	border-color: #f2f2f2;
+	margin-left: 20px;
+	
+}
+
+input[type=checkbox] {
+    zoom: 1.5;
+    border-color: blue;
+    vertical-align:middle;
+    text-align: left;
+	font-size: small;
+}
+
+p {
+	margin-left: 10px;
+}
+
+.b1 {
+	background-color: #ff704d;
+}
+
+
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+  <style type="text/css">
+
+     
+
+    .navbar navbar-default{
+
+     display: block;
+
+    }
+
+
+
+
+    /* Style The Dropdown Button */
+
+    .dropbtn {
+
+    background-color: white;
+
+    color: black;
+
+    padding: 16px;
+
+    font-size: 16px;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+
+
+
+/* The container <div> - needed to position the dropdown content */
+
+    .dropdown {
+
+    position: relative;
+
+    display: inline-block;
+
+}
+
+
+
+
+/* Dropdown Content (Hidden by Default) */
+
+    .dropdown-content {
+
+    display: none;
+
+    position: absolute;
+
+    background-color: white;
+
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    z-index: 1;
+
+}
+
+
+
+
+/* Links inside the dropdown */
+
+    .dropdown-content a {
+
+    color: black;
+
+    padding: 12px 16px;
+
+    text-decoration: none;
+
+    display: block;
+
+}
+
+
+
+
+/* Change color of dropdown links on hover */
+
+    .dropdown-content a:hover {background-color: white;}
+
+
+
+
+/* Show the dropdown menu on hover */
+
+    .dropdown:hover .dropdown-content {
+
+    display: block;
+
+}
+
+
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+    .dropdown:hover .dropbtn {
+
+    background-color: white;
+
+}
+
+
+
+
+    #sup{
+
+      float: right;
+
+    }
+
+    .navbar navbar-inverse {
+
+      background: white;
+    }
+
+    .navigationimage{
+
+      width: 75%;
+
+      height: auto;
+
+      display: inline-block;
+
+      padding-top: 5%;
+    }
+
+    
+    #special{
+
+      background color: red;
+
+      
+
+    }
+
+    #wait{
+
+      display: inline-block;
+    }
+
+
+    #awesome{
+
+      display: inline-block;
+    }
+
+    #specific{
+
+      padding-top: 2%;
+    }
+
+    .cb1{
+
+  text-align: left;
+
+  border-color: #f2f2f2;
+
+  margin-left: 20px;
+
+  height: 290px;
+
+  font-size: small; 
+
+  overflow-y: scroll;
+
+}
+
+
+
+
+.cb2{
+
+  text-align: left;
+
+  border-color: #f2f2f2;
+
+  margin-left: 20px;
+
+  font-size: small;
+
+}
+
+
+
+
+.cb3{
+
+  text-align: left;
+
+  border-color: #f2f2f2;
+
+  margin-left: 20px;
+
+  height: 260px;
+
+  font-size: small;
+
+  overflow-y: scroll;
+
+}
+
+
+
+
+.cb4{
+
+  text-align: left;
+
+  border-color: #f2f2f2;
+
+  margin-left: 20px;
+
+  height: 295px;
+
+  font-size: small;
+
+  overflow-y: scroll;
+
+}
+
+
+
+
+.cb5{
+
+  text-align: left;
+
+  border-color: #f2f2f2;
+
+  margin-left: 20px;
+
+  height: 290px;
+
+  font-size: small;
+
+  overflow-y: scroll;
+
+}
+
+
+
+
+.rbs{
+
+  text-align: left;
+
+  border-color: #f2f2f2;
+
+  margin-left: 20px;
+
+  
+
+}
+
+
+
+
+input[type=checkbox] {
+
+    zoom: 1.5;
+
+    border-color: blue;
+
+    vertical-align:middle;
+
+    text-align: left;
+
+  font-size: small;
+
+}
+
+
+
+
+p {
+
+  margin-left: 10px;
+
+}
+
+
+
+
+.b1 {
+
+  background-color: #ff704d;
+
+}
+
+
+
+.read-more-state {
+
+  display: none;
+
+}
+
+
+
+
+.read-more-target {
+
+  opacity: 0;
+
+  max-height: 0;
+
+  font-size: 0;
+
+  transition: .25s ease;
+
+}
+
+
+
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+
+  opacity: 1;
+
+  font-size: inherit;
+
+  max-height: 999em;
+
+}
+
+
+
+
+.read-more-state ~ .read-more-trigger:before {
+
+  content: 'Show more';
+
+}
+
+
+
+
+.read-more-state:checked ~ .read-more-trigger:before {
+
+  content: 'Show less';
+
+}
+
+
+
+
+.read-more-trigger {
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  padding: 0 .5em;
+
+  color: #666;
+
+  font-size: .9em;
+
+  line-height: 2;
+
+  border: 1px solid #ddd;
+
+  border-radius: .25em;
+
+}
+
+    </style>
