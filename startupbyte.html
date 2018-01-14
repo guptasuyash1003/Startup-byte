@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+
+
+
+
+<html>
+
+
+
+
+<head>
+
+
+
+
+ <title></title>
+
+
+
+
+ <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" type="text/css" href="sb.css">   
+ 
+
+
+
+
+ <style type="text/css">
+
+
+
+
+  .pink{
+
+
+
+
+   background: white;
+
+
+
+
+   border: 1px solid #f2f2f2;
+
+
+
+
+   text-align: left;
+
+
+
+
+  }
+
+
+
+
+  .orange{
+
+
+
+
+   background: white;
+
+
+
+
+   border: 5px solid #f2f2f2;
+
+
+
+
+   /*height: 50px;*/
+
+
+
+
+   text-align: center;
+
+
+
+
+  }
+
+
+
+
+  .white{
+
+
+
+
+   background: white;
+
+
+
+
+   border: 1px solid #f2f2f2;
+
+
+
+
+   text-align: center;
+
+
+
+
+  }
+
+  #bt1{
+
+    background-color: orange;
+  }
+
+  #bt2{
+
+    background-color: green;
+
+  }
+
+#bt3{
+
+  background-color: orange;
+}
+
+#bt4{
+
+  background-color: green;
+}
+
+#bt5{
+
+  background-color: orange;
+
+}
+
+
+
+ </style>
+
+
+
+</head>
+
+
+<body style="background-color: #f2f2f2">
+
+
+
+
+<nav id="special" class="navbar navbar-inverse">
+
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>                        
+
+      </button>
+
+      <!-- <a class="navbar-brand" href="startupbyte.com/home"><img src="C:\Users\Welcome\Desktop\SIH\sb.png"></a>  -->
+
+       <a href="#" class="pull-left"><img class="navigationimage" src="C:\Users\suyash gupta\Desktop\assignment\logo_small.png"></a>
+
+        <!-- <a class="navbar-brand" href="startupbyte.com/home"><img src="C:\Users\suyash gupta\Desktop\assignment\logo_small"></a> -->
+
+      <!-- <a class="navbar-brand" href="#">StartupByte</a> -->
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+
+      <ul id="awesome" class="nav navbar-nav">
+
+        <!-- <li class="active"><a href="#">Discover</a></li> -->
+
+        <li class="dropdown">
+
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Discover</a>
+
+          <ul class="dropdown-menu">
+
+            <li><a href="#">Startups</a></li>
+
+            <li><a href="#">Events</a></li>
+
+            <li><a href="#">Community</a></li>
+
+            <li><a href="#">Ecosystem</a></li>
+
+          </ul>
+
+        </li>
+
+        <li class="dropdown">
+
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ask</a>
+
+          <ul class="dropdown-menu">
+
+            <li><a href="#">Ask Me Anything</a></li>
+
+          </ul>
+
+        </li>
+
+        <li class="dropdown">
+
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Jobs</a>
+
+          <ul class="dropdown-menu">
+
+            <li><a href="#">Browse Jobs</a></li>
+
+            <li><a href="#">Applied Jobs</a></li>
+
+            <li><a href="#">How It Works</a></li>
+
+          </ul>
+
+        </li>
+
+        <li class="dropdown">
+
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">More Jobs</a>
+
+          <ul class="dropdown-menu">
+
+            <li><a href="#">How It Works</a></li>
+
+            <li><a href="#">Featured</a></li>
+
+            <li><a href="#">Topics</a></li>
+
+            <li><a href="#">Activity Feed</a></li>
+
+            <li><a href="#">Leaderboard</a></li>
+
+            <li><a href="#">What's New</a></li>
+
+            <li><a href="#">FAQ's</a></li>
+
+            <li><a href="#">Contact Us</a></li>
+
+            <li><a href="#">Blog</a></li>
+
+            <li><a href="#">Terms of Service</a></li>
+
+            <li><a href="#">Privacy Policy</a></li>
+
+            <li><a href="#">Pricing</a></li>
+
+          </ul>
+
+          <li class="dropdown">
+
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Jobs<span class="caret"></span></a>
+
+                   <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Jobs <span class="caret"></span></a> -->
+
+                    <ul class="dropdown-menu">
+
+                     <li><a href="#">Startup</a></li>
+
+                     <li><a href="#">Community</a></li>
+
+                     <li><a href="#">Jobs</a></li>
+
+                     <li><a href="#">Events</a></li>
+
+                     <li><a href="#">Ecosystem</a></li>
+
+                    </ul>
+
+                </li>
+
+
+
+
+                <li id="specific">
+
+                  <form class="form-inline">
+
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search Startups, Incubators, Jobs, Events, etc" aria-label="Search">
+
+                  <button class="btn btn-default btn-primary">+Add New</button>
+
+                  </form>
+
+      </li>
+
+        </li>
+
+
+</ul>
+
+
+      <ul id="Wait" class="nav navbar-nav navbar-right">
+
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+
+ 
+
+</nav>
+
+  
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>    
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+
+ 
+
+
+
+
+    <div class="content">
+
+
+
+
+     <div class="row">
+
+
+
+
+      <div class="col-lg-2 col-md-2 white">
+
+
+
+
+       <div class="rows">
+
+
+
+
+        <div><b>
+
+
+
+
+         Join online community for Indian startup ecosystem</b>
+
+
+
+
+         <div><button type="button" class="b1" name="b1">Sign Up Now</button></div>
+
+
+
+
+        </div>
+
+
+
+
+        <div>
+
+
+
+
+         <hr>
+
+
+
+
+         <p align="left">Filters</p>
+
+
+
+
+        </div>
+
+
+
+
+        <fieldset>
+
+
+
+
+         <hr>
+
+
+
+
+         <p align="left"><b>By Locations</b></p>
+
+
+
+
+        <div class="cb1">
+
+
+
+
+         <!-- By Locations <br> -->
+
+
+        <label><input type="checkbox" name="l1">  Hyderabad(22)</label><br>
+
+         <label><input type="checkbox" name="l2">  Mumbai(17)</label><br>
+
+         <label><input type="checkbox" name="l3">  Bangalore(13)</label><br>
+
+         <label><input type="checkbox" name="l4">  Noida(10)</label><br>
+
+         <label><input type="checkbox" name="l5">  Delhi(6)</label><br>
+
+         <label><input type="checkbox" name="l6">  Gurgaon(5)</label><br>
+
+         <label><input type="checkbox" name="l7">  Chandigarh(3)</label><br>
+
+         <label><input type="checkbox" name="l8">  Chennai(3)</label><br>
+
+         <label><input type="checkbox" name="l9">  Ahmedabad(2)</label><br>
+
+         <label><input type="checkbox" name="l10">  Pune(2)</label><br>
+
+
+
+
+        </div></fieldset>
+
+
+
+
+        <fieldset>
+
+
+
+
+         <hr>
+
+
+
+
+         <p align="left"><b>By Job Type</b></p>
+
+
+
+
+        <div class="cb2">
+
+
+
+
+         <!-- By Locations <br> -->
+
+
+
+
+                        <label><input type="checkbox" name="j1">  full time (50)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="j2">  intern (14)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="j3">  part time (7)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="j4">  remote (5)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="j5">  contractor (3)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="j6">  freelancer (1)</label><br>
+
+
+
+
+        </div></fieldset>
+
+
+
+
+        <fieldset>
+
+
+
+
+         <hr>
+
+
+
+
+         <p align="left"><b>By Job Experience</b></p>
+
+
+
+
+        <div class="cb3">
+
+
+
+
+         <!-- By Locations <br> -->
+
+
+
+
+                        <label><input type="checkbox" name="je1">  fresher (36)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="je2">  1-2 years (22)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="je3">  3-5 years (18)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="je4">  2-3 years (17)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="je5">  0-1 year (16)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="je6">  5-7 years (11)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="je7">  7-10 years (6)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="je8">  10-15 years (4)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="je9">  15+ years (2)</label><br>
+
+
+
+
+        </div></fieldset>
+
+
+
+
+        <fieldset>
+
+
+
+
+         <hr>
+
+
+
+
+         <p align="left"><b>By Verified</b></p>
+
+
+
+
+        <div class="rbs">
+
+
+
+
+         <!-- By Locations <br> -->
+
+
+
+
+                        <label><input type="radio" name="v1">  Verified (65)</label><br>
+
+
+
+
+        </div></fieldset>
+
+
+
+
+        <fieldset>
+
+
+
+
+         <hr>
+
+
+
+
+         <p align="left"><b>By Job Role</b></p>
+
+
+
+
+        <div class="cb4">
+
+
+
+
+         <!-- By Locations <br> -->
+
+
+
+
+                        <label><input type="checkbox" name="jr1">Business Development (12)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="jr2">Operations Manager (9)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="jr3">Full stack Development (8)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="jr4">Front-end Development (5)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="jr5">Backend Development (4)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="jr6">Mobile Development (4)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="jr7">Sales Manager (3)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="jr8">Technical Lead (3)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="jr9">UI/UX designer (3)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="jr10">Digital Marketing (2)</label><br>
+
+
+
+
+        </div></fieldset>
+
+
+
+
+        <fieldset>
+
+
+
+
+         <hr>
+
+
+
+
+         <p align="left"><b>Skills</b></p>
+
+
+
+
+        <div class="cb5">
+
+
+
+
+         <!-- By Locations <br> -->
+
+
+
+
+                        <label><input type="checkbox" name="s1">Business Development (10)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="s2">Sales (9)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="s3">JavaScript (7)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="s4">UI/UX (6)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="s5">NodeJS (5)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="s6">Operations (5)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="s7">Angular (4)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="s8">Digital Marketing (4)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="s9">HTML (4)</label><br>
+
+
+
+
+         <label><input type="checkbox" name="s10">Market Research (4)</label><br>
+
+
+
+
+        </div></fieldset>
+
+
+
+
+        <fieldset>
+
+
+
+
+         <hr>
+
+
+
+
+         <p align="left"><b>By Starting Salary</b></p>
+
+
+
+
+        <div class="rbs">
+
+
+
+
+         <!-- By Locations <br> -->
+
+
+
+
+                        <label><input type="radio" name="ss1">  >5 lakhs (44)</label><br>
+
+
+
+
+         <label><input type="radio" name="ss2">  5-10 lakhs (6)</label><br>
+
+
+
+
+         <label><input type="radio" name="ss3">  10-15 lakhs (9)</label><br>
+
+
+
+
+         <label><input type="radio" name="ss4">  > 15 lakhs (2)</label><br>
+
+
+
+
+        </div></fieldset>
+
+
+
+
+        <fieldset>
+
+
+
+
+         <hr>
+
+
+
+
+         <p align="left"><b>Min Equity Range</b></p>
+
+
+
+
+        <div class="rbs">
+
+
+
+
+         <!-- By Locations <br> -->
+
+
+
+
+                        <label><input type="radio" name="er1">  no equity (57)</label><br>
+
+
+
+
+         <label><input type="radio" name="er2">  < 1% (1)</label><br>
+
+
+
+
+         <label><input type="radio" name="er3">  1% - 5% (5)</label><br>
+
+
+
+
+         <label><input type="radio" name="er4">  > 5% (2)</label><br>
+
+
+
+
+        </div></fieldset>
+
+
+
+
+        <fieldset>
+
+
+
+
+         <hr>
+
+
+
+
+         <p align="left"><b>By Posting Date</b></p>
+
+
+
+
+        <div class="rbs">
+
+
+
+
+         <!-- By Locations <br> -->
+
+
+
+
+                        <label><input type="radio" name="pd1">  Previous (55)</label><br>
+
+
+
+
+         <label><input type="radio" name="pd2">  Last Month (10)</label><br>
+
+
+
+
+         <label><input type="radio" name="pd3">  Last Week (1)</label><br>
+
+
+
+
+        </div></fieldset>
+
+
+
+
+       </div>
+
+
+
+
+       
+
+
+
+
+      </div>
+
+
+
+
+      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+
+
+
+
+       <div class="rows"></div>
+
+
+
+
+       <div class="orange">
+
+
+
+
+       <b>
+
+
+
+
+       Browse and Apply for Startup Jobs, Internships and Freelance Projects in Indian Startup Ecosystem</b> <br>
+
+
+
+
+       <button type="button" class="b2" name="b2">Add your Job</button> </div>
+
+
+
+
+       <div class="pink">
+
+
+
+
+        <span>
+
+                        <a href="https://placeholder.com"><img src="http://via.placeholder.com/60x80"></a><a href="">Data Entry Intern</a>
+
+                        <!-- <a href="https://placeholder.com"><img src="http://via.placeholder.com/60x80..C:\Users\suyash gupta\Desktop\assignment\dataentry.png"></a><a href=""><h4>Data Entry Intern</h4></a>  -->
+
+                    
+
+                        <button id="bt1" class="btn btn-default btn-xs">Verified</button>
+
+
+
+
+                        <button id="bt2" class="btn btn-default btn-xs">Intern</button>
+
+
+
+
+                        <button id="bt3" class="btn btn-default btn-xs">Remote</button>
+
+
+
+
+
+
+
+
+
+
+                      </span>
+
+
+
+
+                      <div>
+
+                          
+
+                        <i class="fa fa-building-o" aria-hidden="true"> Startup Byte</i>
+
+
+
+
+                        <i class="fa fa-map-marker" aria-hidden="true"> Hyderabad</i>
+
+
+
+
+
+
+
+                      </div>
+
+
+
+
+                      <div>
+
+                          
+
+                          <i class="fa fa-facebook" aria-hidden="true"></i>
+
+
+
+
+                          <i class="fa fa-twitter" aria-hidden="true"></i>
+
+
+
+
+                          <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+
+
+
+                          <i class="fa fa-globe" aria-hidden="true"></i>
+
+
+
+
+
+
+
+                      </div>
+
+                         
+
+
+
+
+                       <div>
+
+                           
+
+                          <button><i class="fa fa-share-alt"></i></button>
+
+
+
+
+                          <button id=""> Apply </button>
+
+
+
+
+                          <hr width="97%">
+
+
+
+
+                        </div>
+
+
+
+
+                        <!-- <input type="checkbox" class="read-more-state" id="post-2" /> -->
+
+            
+
+                        <!-- <a href="https://placeholder.com"><img src="http://via.placeholder.com/60x80"></a><a href=""><h4>Data Entry Intern</h4></a> -->
+
+                <!-- <hr> -->
+
+                <!-- <P class="read-more-wrap"> <span class="read-more-target"> -->
+
+                <div class="content" style="font-size: 14px; margin-left: 5px;">
+
+                <div class="rows">
+
+                <div class="col-lg-3">Compensation:
+
+                <span class="col-lg-9">Salary: ₹3,000 - ₹3,000 .</span>
+
+                </div>
+
+              </div>
+
+                <div class="rows">
+
+                <div class="col-lg-3">Location: 
+
+                <span class="col-lg-9"><button class="btn btn-default btn-xs">Hyderabad</button></span></div>
+
+                </div>
+
+                <div class="rows">
+
+                <div class="col-lg-3">Skills:
+
+                <span class="col-lg-9"><button class="btn btn-default btn-xs">Writing</button> <button class="btn btn-default btn-xs">Market Research</button></span></div>
+
+                </div>
+
+                <div class="rows">
+
+                <div class="col-lg-3">Job Experience:
+
+                <span class="col-lg-9"><button class="btn btn-default btn-xs">Fresher</button> <button class="btn btn-default btn-xs">0-1 year</button> <button class="btn btn-default btn-xs">1-2 years</button></span></div>
+
+                <p>Job Description</p>
+
+                </div>
+
+                  </div>
+
+                          <hr width="97%">
+
+                         <span>  <a href="https://placeholder.com"><img src="http://via.placeholder.com/60x80"></a><a href=""> Graphic Designer</a>
+
+
+                    
+
+                        <button id="bt4" class="btn btn-default btn-xs">Verified</button>
+
+
+
+
+                        <button id="bt5" class="btn btn-default btn-xs">Full Time</button>
+
+
+
+
+                      </span>
+
+
+
+
+                      <div>
+
+                          
+
+                        <i class="fa fa-building-o" aria-hidden="true"> The Minimalist</i>
+
+
+
+
+                        <i class="fa fa-map-marker" aria-hidden="true"> Mumbai</i>
+
+
+
+
+
+
+
+                      </div>
+
+
+
+
+                      <div>
+
+                          
+
+                          <i class="fa fa-facebook" aria-hidden="true"></i>
+
+
+
+
+                          <i class="fa fa-twitter" aria-hidden="true"></i>
+
+
+
+
+                          <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+
+
+
+                          <i class="fa fa-globe" aria-hidden="true"></i>
+
+
+
+
+
+
+
+                      </div>
+
+                         
+
+
+
+
+                       <div>
+
+                           
+
+                          <button><i class="fa fa-share-alt"></i></button>
+
+
+
+
+                          <button> Apply </button>
+
+
+
+
+                          <hr width="97%">
+
+
+
+
+                        </div>
+
+
+
+
+                        <!-- <input type="checkbox" class="read-more-state" id="post-2" /> -->
+
+            
+
+                        <!-- <a href="https://placeholder.com"><img src="http://via.placeholder.com/60x80"></a><a href=""><h4>Data Entry Intern</h4></a> -->
+
+                <!-- <hr> -->
+
+                <!-- <P class="read-more-wrap"> <span class="read-more-target"> -->
+
+                <div class="content" style="font-size: 14px; margin-left: 5px;">
+
+                <div class="rows">
+
+                <div class="col-lg-3">Compensation:</div>
+
+                <div class="col-lg-9">Salary: ₹3,000 - ₹3,000 .</div>
+
+                </div>
+
+                <div class="rows">
+
+                <div class="col-lg-3">Location: </div>
+
+                <div class="col-lg-9"><button class="btn btn-default btn-xs">Mumbai</button></div>
+
+                </div>
+
+                <div class="rows">
+
+                <div class="col-lg-3">Skills:</div>
+
+                <div class="col-lg-9"><button class="btn btn-default btn-xs">UI/UX</button> </div>
+
+                </div>
+
+                <div class="rows">
+
+                <div class="col-lg-3">Job Experience:</div>
+
+                <div class="col-lg-9"><button class="btn btn-default btn-xs">1-2 years</button> <button class="btn btn-default btn-xs">2-3 years</button> <button class="btn btn-default btn-xs">3-5 years</button> <button class="btn btn-default btn-xs">5-7 years</button> <button class="btn btn-default btn-xs">7-10 years</button> <button class="btn btn-default btn-xs">10-15 years</button> <button class="btn btn-default btn-xs">15+ years</button></div>
+
+                <p>Job Description</p>
+
+                </div>
+
+                  </div>
+
+                          <hr width="97%">
+
+                          
+
+                        <input type="checkbox" class="read-more-state" id="post-3" />
+
+
+
+
+                        <p class="read-more-wrap">
+
+                          Proficiency in Photoshop, Illustrator, Sketches, Corel Draw, Zeplin (optional), Adobe Xd, or other visual design and wire-framing tools
+
+Proficiency in HTML, CSS, and JavaScript, for rapid prototyping <span class="read-more-target">
+
+Solid experience in creating wireframes, storyboards, user flows, process flows, prototypes, UI Design, App interface, Usability testing, User research, Typography, Communication Design and site maps presentations to be presented to existing and prospective clients and help the development team understand what to build
+
+Excellent visual design skills with sensitivity to user-system interaction  Up-to-date with the latest UI trends, techniques, and technologies
+
+Work closely with a team of stakeholders to guide UX design from start to finish of the project.
+
+Collaborate and propose solutions that balance user needs with business goals and technological capabilities
+
+Improve designs based on user engagement and feedback
+
+Ability to solve problems creatively and effectively
+
+Should be excellent in communication as you will be the Point of Contact to the client 
+
+
+
+
+                       
+
+                            </span>
+
+                        </p>
+
+                        <label for="post-3" class="read-more-trigger"></label>
+
+
+
+
+
+
+
+                       </div>
+
+
+
+
+
+
+
+
+
+
+       </div>
+
+
+
+
+      
+
+
+
+
+      <div class="col-lg-2 col-md-2 pink">
+
+
+
+
+       <div class="row">
+
+
+
+
+        <div>
+
+
+
+
+         For Candidates
+
+
+
+
+       <h6>3 easy steps</h6>
+
+       <ol>
+
+       <li>Setup Profile</li>
+
+       <li>Setup Job Expectations</li>
+
+       <li>Apply for Jobs</li></ol>
+
+        </div>
+
+
+
+
+        <hr>
+
+
+
+
+        <div>
+
+
+
+
+         For Companies
+
+
+
+
+       <h6>3 easy steps</h6> 
+
+       <ol>
+
+       <li>Add Org</li>
+
+       <li>Claim Org Page</li>
+
+       <li>Add Job Requirement</li></ol> 
+
+        </div>
+
+
+
+
+       </div> 
+
+
+
+
+      </div>
+
+
+
+
+     </div>
+
+
+
+
+     </div>
+
+
+
+</body>
+
+
+
+
+</html>
